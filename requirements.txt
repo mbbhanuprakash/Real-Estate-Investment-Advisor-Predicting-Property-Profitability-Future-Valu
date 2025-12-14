@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+
+!pip install streamlit -q
+
+# Run the app
+!streamlit run app.py & npx localtunnel --port 8501
